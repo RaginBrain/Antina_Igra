@@ -1,0 +1,7 @@
+Content\Sprites\tica_pokusaj.xnb
+Content\Backgrounds\bg1.xnb
+Content\Backgrounds\bg2.xnb
+Content\Image1.xnb
+Content\Sprites\tica_gotova.xnb
+Content\Sprites\barijera.xnb
+Content\Sprites\SpriteFont1.xnb

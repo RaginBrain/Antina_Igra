@@ -1,0 +1,19 @@
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Sprites\tica_pokusaj.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Backgrounds\bg1.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Backgrounds\bg2.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Image1.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Sprites\tica_gotova.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Sprites\barijera.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Content\Sprites\SpriteFont1.xnb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Antina_igra.dll
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Antina_igra.pdb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\Windows Phone Copy (2) of Antina_igra.csprojResolveAssemblyReference.cache
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\Antina_igra.dll
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\Antina_igra.pdb
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\bin\Windows Phone\Debug\Antina_igra.xap
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igra\obj\Windows Phone\Debug\XapCacheFile.xml

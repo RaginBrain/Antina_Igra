@@ -1,0 +1,2 @@
+C:\Users\Ante\Desktop\Moje Školovanje\_SVAŠTA\IGRE_XNA_C#\Pozadina_primjer\Antina_igra\Antina_igra\Antina_igraContent\obj\x86\Debug\Antina_igraContent.contentprojResolveAssemblyReference.cache
+C:\Users\Ante\Google disk\Desktop\Antina_igra\Antina_igra\Antina_igraContent\obj\x86\Debug\Antina_igraContent.contentprojResolveAssemblyReference.cache
