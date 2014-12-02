@@ -15,7 +15,7 @@ namespace Antina_igra
         public Vector2 position;
         Vector2 amountofFrames, currentFrame;
         public Texture2D Image;
-        Rectangle suorceRect;
+        public Rectangle suorceRect;
         public bool active;
 
         public Vector2 CurrentFrame

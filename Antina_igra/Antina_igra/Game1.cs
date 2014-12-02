@@ -45,6 +45,9 @@ namespace Antina_igra
         Player player1;
         KeyboardState keyState;
 
+        int pxx;//standardna jedinica mjere visine pri pokušaju responzivnosti!
+
+
         SpriteFont score;
 
         public Game1()
@@ -54,6 +57,7 @@ namespace Antina_igra
             graphics.PreferredBackBufferWidth = 900;
             graphics.PreferredBackBufferHeight = 540;
             graphics.ApplyChanges();
+            pxx = graphics.PreferredBackBufferWidth / 180;
 
 
             Content.RootDirectory = "Content";
@@ -77,7 +81,6 @@ namespace Antina_igra
             player1.Initialize();
             player1.playerAnimation.Initialize();
             sljedeciLevel = lvlUp.level + 1;
-            mjera = graphics.PreferredBackBufferWidth / 900;
 
         }
 
@@ -95,19 +98,20 @@ namespace Antina_igra
             scrolling1 = new Scrolling(Content.Load<Texture2D>("Backgrounds/bg1"), new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), 3);
             scrolling2 = new Scrolling(Content.Load<Texture2D>("Backgrounds/bg2"), new Rectangle(graphics.PreferredBackBufferWidth, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), 3);
 
-            player1 = new Player(Content.Load<Texture2D>("Sprites/tica_gotova"), new Rectangle(0, 0, 50, 57));
+            player1 = new Player(Content.Load<Texture2D>("Sprites/tica_gotova"), new Rectangle(0, 0, 10*pxx, 11*pxx));
             player1.playerAnimation.Image = player1.texture;
+            player1.playerAnimation.suorceRect=new Rectangle(0, 0, 10*pxx, 11*pxx);
             player1.texture_stit = Content.Load<Texture2D>("Sprites/tica_stit");
            // player1.playerAnimation.Image = player1.texture;
 
             //standardna jedinica
-            maca = new Barijera(Content.Load<Texture2D>("Sprites/maca"), new Rectangle(2200, 0,  80,  80));
-            stit = new Stit(Content.Load<Texture2D>("Sprites/stit"), new Rectangle(2000, 50, 64, 64));
-            lvlUp = new LevelUp(Content.Load<Texture2D>("Sprites/be_ready"), new Rectangle(1000, 250,150, 50));
-            barijera = new Barijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(1000, 0, 35, 160));
-            barijera1 = new PokretnaBarijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(1250, 100, 35, 150), false, graphics.PreferredBackBufferHeight);
-            barijera2 = new Barijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(1500, 400, 35, 160));
-            barijera3 = new PokretnaBarijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(1750, 500, 35, 150), true, graphics.PreferredBackBufferHeight);
+            maca = new Barijera(Content.Load<Texture2D>("Sprites/maca"), new Rectangle(450 * pxx, 0, 16 * pxx, 16 * pxx));
+            stit = new Stit(Content.Load<Texture2D>("Sprites/stit"), new Rectangle(400 * pxx, 10 * pxx, 10 * pxx, 10 * pxx));
+            lvlUp = new LevelUp(Content.Load<Texture2D>("Sprites/be_ready"), new Rectangle(200 * pxx, 50 * pxx, 30 * pxx, 10 * pxx));
+            barijera = new Barijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(200*pxx, 0, 7*pxx, 32*pxx));
+            barijera1 = new PokretnaBarijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(250 * pxx, 20 * pxx, 7 * pxx, 30 * pxx), false, graphics.PreferredBackBufferHeight);
+            barijera2 = new Barijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(300 * pxx, 80 * pxx, 7 * pxx, 32 * pxx));
+            barijera3 = new PokretnaBarijera(Content.Load<Texture2D>("Sprites/barijera"), new Rectangle(350 * pxx, 100 * pxx, 7 * pxx, 30 * pxx), true, graphics.PreferredBackBufferHeight);
         }
 
         /// <summary>
@@ -193,7 +197,7 @@ namespace Antina_igra
             barijera1.Draw(spriteBatch);
             barijera2.Draw(spriteBatch);
             barijera3.Draw(spriteBatch);
-            spriteBatch.Draw(maca.texture, new Rectangle(maca.rectangle.X, maca.rectangle.Y + 20, 80, 80), Color.White);
+            spriteBatch.Draw(maca.texture, new Rectangle(maca.rectangle.X, maca.rectangle.Y + 4 * pxx, 16 * pxx, 16 * pxx), Color.White);
            // stit.Draw(spriteBatch);
 
             player1.playerAnimation.Draw(spriteBatch);
